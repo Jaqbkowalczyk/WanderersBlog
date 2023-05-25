@@ -1,0 +1,219 @@
+@charset "ISO-8859-1";
+
+.post-container {
+ padding: 30px;
+ margin:auto;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 1em;
+ max-width: 1400px;
+ text-align:center;
+ }
+	
+	
+	.posts{
+	padding: 20px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	}
+	
+	.profile-page{
+	max-width:1400px;
+	margin: 0 auto;
+	}
+	
+	.details {
+	background-color: #fff;
+	padding: 50px;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width:	700px;
+	height: 600px; 
+	
+}
+
+  .user-profile {
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	background-color:rgba(255, 255, 255, 0.7);
+  }
+  
+   .opinions{
+     display: flex;
+  	text-align:left;
+  	margin: 50px;
+  	width: 1300px;
+  	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color:rgba(255, 255, 255, 0.7);}
+	
+	
+  .opinion {
+  text-align:left;
+  margin: 20px;
+  width: 500px;
+  }
+
+  .user-info {
+    width: 30%;
+    text-align: center;
+  }
+
+  .user-actions {
+    width: 30%;
+    padding-left: 20px;
+  }
+
+  .wrapper{
+  text-align: center;}
+
+
+  .button {
+   width: 100px;
+   background-color: lightblue;
+   color: white;
+   padding: 14px 20px;
+   margin: 30px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+  }
+
+
+.rating i {
+  font-size: 1.5em;
+}
+
+
+
+#rating-form .rating {
+	display: inline-block;
+	position: relative;
+}
+
+#rating-form input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+#rating-form label {
+	display: inline-block;
+	cursor: pointer;
+	color: #bbb;
+}
+
+#rating-form input[type="radio"]:checked+label {
+	color: #FDCC0D;
+}
+
+#rating-form label:hover, #rating-form label:focus, #rating-form input[type="radio"]:hover+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form label:hover ~ label, #rating-form label:focus ~ label,
+	#rating-form input[type="radio"]:hover ~ label {
+	color: #bbb;
+}
+
+#rating-form input[type="radio"]#rating-1:hover+label, #rating-form input[type="radio"]#rating-1:focus+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-1:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-1:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-2:hover+label, #rating-form input[type="radio"]#rating-2:focus+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-2:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-2:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-3:hover ~ label, #rating-form input[type="radio"]#rating-3:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-3:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-3:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-4:hover ~ label, #rating-form input[type="radio"]#rating-4:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-4:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-4:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-5:hover ~ label, #rating-form input[type="radio"]#rating-5:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-5:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-5:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+.rating {
+	position: absolute;
+	left: -30px; /* adjust as needed */
+}
+
+.wrapper {
+	text-align: center;
+   width: 100%;
+   margin: 0 auto;
+   font-family: Arial, sans-serif;
+}
+
+
+input[type=text] {
+   width: 80%;
+   height: 150px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px solid gray;
+   border-radius: 4px;
+   font-size: 16px;
+}
+
+input[type=submit] {
+   width: 80%;
+   background-color: lightblue;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+

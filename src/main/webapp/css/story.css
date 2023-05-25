@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+.story-page {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	width: 80%;
+	max-width: 1400px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 50;
+	margin-bottom:20px;
+}
+
+.post-content{
+	margin-top:20px;
+}
+
+img {
+	padding: 15px;
+	margin: 0 auto;
+	width:700px;
+}
+
+.description {
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+
+.like-subscribe-section {
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+	padding:5px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #b2b2b2;
+}
+
+.likes{
+	margin-top:10px;
+}
+
+.like-button{
+	padding: 10px 20px;
+	background-color: #ff8000;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+.author{
+	margin-top:50px;
+	margin-bottom:10px;
+	
+}
+
+.recommendedStories{
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 50px;
+	
+}
+
+.reccommended-stories{
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+	margin: 0 auto;
+	margin-top:5px;
+	
+}
+
+.division{
+	margin:5px;
+}
+
+/* comments */
+
+.comment-field{
+	width: 50%;
+}
+
+.comments-section {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #daebee;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.comments-and-replies {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.comment {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #b2b2b2;
+	margin-bottom: 20px;
+}
+
+.reply {
+	margin-left: 50px;
+}
+
+
+
+.write-comment {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button1 {
+	margin:10px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 4px;
+	cursor: pointer;;
+	background-color: #008080;
+	text-align: center;
+	color: white;
+}
+
+
+
+/* offer css */
+
+.join-trip-section{
+	width: 50%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.dates{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#d88211
+}
+
+ .date{
+	margin-bottom:15px;
+	
+} 
+
