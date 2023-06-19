@@ -32,7 +32,6 @@ The Wanderers Blog site is built using the following technologies and frameworks
 
 - **HTML, CSS, and JavaScript:** The front-end of the site is built using HTML for structure, CSS for styling, and JavaScript for interactive behavior.
 
-- **Thymeleaf:** Thymeleaf is used as the server-side Java template engine for rendering dynamic content on the webpages.
 
 ## Installation and Setup
 
@@ -71,6 +70,7 @@ The project follows a standard Maven/Gradle project structure. The main director
 ## Development Team
 
 The Wanderers Blog site was developed by:
+
  - Jakub Kowalczyk
  - Aleksandra Wlazlo
 
